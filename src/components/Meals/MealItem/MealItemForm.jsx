@@ -7,7 +7,7 @@ const MealItemForm = (props) => {
       <Input
         label="Amount"
         input={{
-          id: "amount",
+          id: "amount_"+props.id,// this is changed to make the id unique
           type: "number",
           min: "1",
           max: "5",
